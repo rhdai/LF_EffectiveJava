@@ -1,3 +1,5 @@
+package Chapter2.Item1;
+
 // Simple test program for service provider framework
 
 public class Test {

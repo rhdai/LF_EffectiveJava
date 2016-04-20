@@ -1,5 +1,11 @@
-// Builder Pattern - Pages 14-15
+package Chapter2.Item2.builder;
 
+// Builder Pattern - Pages 14-15
+/**
+ * builder模式   （易于阅读）
+ * 不足：为了创建对象必须先创建它的构建器（更多的开销）
+ * 试用于：类的构造器或者静态工厂中又4个以上的参数的话  builder模式是不错的选择。
+ */
 public class NutritionFacts {
     private final int servingSize;
     private final int servings;
@@ -50,5 +56,6 @@ public class NutritionFacts {
     public static void main(String[] args) {
         NutritionFacts cocaCola = new NutritionFacts.Builder(240, 8).
             calories(100).sodium(35).carbohydrate(27).build();
+        new StringBuilder().append("");
     }
 }

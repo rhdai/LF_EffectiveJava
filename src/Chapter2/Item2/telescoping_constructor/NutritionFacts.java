@@ -1,5 +1,12 @@
-// Telescoping constructor pattern - does not scale well! - Pages 11-12
+package Chapter2.Item2.telescoping_constructor;
 
+
+// Telescoping constructor pattern - does not scale well! - Pages 11-12
+/**
+ * 重叠构造器模式
+ * 局限性：当有大量可选参数的时候需要写太多的构造方法，不好阅读，并且对参数的说明必须详细。
+ * 适用于构造参数不是特别多的情况下。
+ */
 public class NutritionFacts {
     private final int servingSize;   // (mL)            required
     private final int servings;      // (per container) required

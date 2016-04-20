@@ -1,5 +1,11 @@
-// JavaBeans Pattern - allows inconsistency, mandates mutability - Pages 12-13
+package Chapter2.Item2.JavaBeans;
 
+// JavaBeans Pattern - allows inconsistency, mandates mutability - Pages 12-13
+/**
+ * javabeans模式
+ * 不足：因为构造的过程分割成好多步骤（如：多次set）。在构造过程中javabean可能处于不一致的状态（个人的理解写在main方法中，不知道对不对？）。
+ *	        这种模式肯定不能做成不可变类，要不然怎么new和set
+ */
 public class NutritionFacts {
     // Parameters initialized to default values (if any)
     private int servingSize  = -1;  // Required; no default value
@@ -21,11 +27,20 @@ public class NutritionFacts {
 
 
     public static void main(String[] args) {
-        NutritionFacts cocaCola = new NutritionFacts();
-        cocaCola.setServingSize(240);
-        cocaCola.setServings(8);
-        cocaCola.setCalories(100);
-        cocaCola.setSodium(35);
-        cocaCola.setCarbohydrate(27);
+    	/**
+    	 * 在构造过程中javabean可能处于不一致的状态
+    	 * 个人理解：new了NutritionFacts类的两个实例，set的属性不一样，这两个实例不一致，
+    	 * 		  你不能保证通过该类的同一个构造器保证构造出来的对象是属性相同的
+    	 */
+        NutritionFacts cocaCola1 = new NutritionFacts();
+        cocaCola1.setServingSize(240);
+        cocaCola1.setServings(8);
+        cocaCola1.setCalories(100);
+        cocaCola1.setSodium(35);
+        cocaCola1.setCarbohydrate(27);
+        NutritionFacts cocaCola2 = new NutritionFacts();
+        cocaCola2.setServingSize(240);
+        cocaCola2.setServings(8);
+        
     }
 }

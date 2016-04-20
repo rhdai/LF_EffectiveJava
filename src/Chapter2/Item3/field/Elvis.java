@@ -1,3 +1,5 @@
+package Chapter2.Item3.field;
+
 // Singleton with public final field - Page 17
 public class Elvis {
     public static final Elvis INSTANCE = new Elvis();
@@ -10,6 +12,7 @@ public class Elvis {
     // This code would normally appear outside the class!
     public static void main(String[] args) {
         Elvis elvis = Elvis.INSTANCE;
+        System.out.println(elvis==Elvis.INSTANCE);
         elvis.leaveTheBuilding();
     }
 }

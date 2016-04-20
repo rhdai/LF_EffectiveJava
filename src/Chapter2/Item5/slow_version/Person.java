@@ -1,3 +1,5 @@
+package Chapter2.Item5.slow_version;
+
 // Creates lots of unnecessary duplicate objects - page 20-21
 
 import java.util.*;

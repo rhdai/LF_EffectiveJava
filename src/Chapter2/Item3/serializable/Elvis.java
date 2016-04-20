@@ -1,3 +1,5 @@
+package Chapter2.Item3.serializable;
+
 // Serializable singleton with public final field - Page 18
 public class Elvis {
     public static final Elvis INSTANCE = new Elvis();

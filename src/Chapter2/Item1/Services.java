@@ -1,3 +1,4 @@
+package Chapter2.Item1;
 // Service provider framework sketch
 
 // Noninstantiable class for service registration and access - Pages 8-9
