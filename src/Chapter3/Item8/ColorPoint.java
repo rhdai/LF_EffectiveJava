@@ -1,3 +1,5 @@
+package Chapter3.Item8;
+
 // Attempting to add a value component to Point - Pages 37 - 38
 
 public class ColorPoint extends Point {

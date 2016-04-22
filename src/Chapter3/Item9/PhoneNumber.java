@@ -1,3 +1,5 @@
+package Chapter3.Item9;
+
 // Shows the need for overriding hashcode when you override equals - Pages 45-46
 
 import java.util.*;
@@ -37,13 +39,13 @@ public final class PhoneNumber {
     // Broken - no hashCode method!
 
     // A decent hashCode method - Page 48
-//  @Override public int hashCode() {
-//      int result = 17;
-//      result = 31 * result + areaCode;
-//      result = 31 * result + prefix;
-//      result = 31 * result + lineNumber;
-//      return result;
-//  }
+  @Override public int hashCode() {
+      int result = 17;
+      result = 31 * result + areaCode;
+      result = 31 * result + prefix;
+      result = 31 * result + lineNumber;
+      return result;
+  }
 
 
     // Lazily initialized, cached hashCode - Page 49
@@ -66,5 +68,6 @@ public final class PhoneNumber {
             = new HashMap<PhoneNumber, String>();
         m.put(new PhoneNumber(707, 867, 5309), "Jenny");
         System.out.println(m.get(new PhoneNumber(707, 867, 5309)));
+        //输出为null 因为没有重写hashCode
     }
 }

@@ -1,3 +1,5 @@
+package Chapter3.Item8;
+
 // Test program that uses CounterPoint as Point
 
 import java.util.*;

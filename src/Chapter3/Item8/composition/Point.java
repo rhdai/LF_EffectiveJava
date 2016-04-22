@@ -1,3 +1,5 @@
+package Chapter3.Item8.composition;
+
 // Simple immutable two-dimensional integer point class - Page 37
 
 import java.util.*;

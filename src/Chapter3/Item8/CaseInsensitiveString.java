@@ -1,3 +1,5 @@
+package Chapter3.Item8;
+
 // Broken - violates symmetry! - Pages 36-37
 
 public final class CaseInsensitiveString {

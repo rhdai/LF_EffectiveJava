@@ -1,3 +1,5 @@
+package Chapter4.Item14;
+
 // Encapsulation of data by accessor methods and mutators
 class Point {
     private double x;

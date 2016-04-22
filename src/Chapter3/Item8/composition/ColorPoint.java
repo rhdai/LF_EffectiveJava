@@ -1,3 +1,5 @@
+package Chapter3.Item8.composition;
+
 // Adds a value component without violating the equals contract - Page 40
 public class ColorPoint {
     private final Point point;

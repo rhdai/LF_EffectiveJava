@@ -1,3 +1,5 @@
+package Chapter3.Item8;
+
 // Trivial subclass of Point - doesn't add a value component - Page 39
 
 import java.util.concurrent.atomic.*;

@@ -1,3 +1,5 @@
+package Chapter3.Item12;
+
 import java.util.*;
 
 public class WordList {

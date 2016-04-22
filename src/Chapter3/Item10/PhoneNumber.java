@@ -1,3 +1,5 @@
+package Chapter3.Item10;
+
 // Adding a toString method to PhoneNumber - page 52
 
 import java.util.*;
@@ -69,4 +71,5 @@ public final class PhoneNumber {
         m.put(new PhoneNumber(707, 867, 5309), "Jenny");
         System.out.println(m);
     }
+    //override方法为了更好的看到有价值的信息。javabean中基本都会重写tostring
 }

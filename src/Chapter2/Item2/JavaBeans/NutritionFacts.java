@@ -2,9 +2,9 @@ package Chapter2.Item2.JavaBeans;
 
 // JavaBeans Pattern - allows inconsistency, mandates mutability - Pages 12-13
 /**
- * javabeansÄ£Ê½
- * ²»×ã£ºÒòÎª¹¹ÔìµÄ¹ı³Ì·Ö¸î³ÉºÃ¶à²½Öè£¨Èç£º¶à´Îset£©¡£ÔÚ¹¹Ôì¹ı³ÌÖĞjavabean¿ÉÄÜ´¦ÓÚ²»Ò»ÖÂµÄ×´Ì¬£¨¸öÈËµÄÀí½âĞ´ÔÚmain·½·¨ÖĞ£¬²»ÖªµÀ¶Ô²»¶Ô£¿£©¡£
- *	        ÕâÖÖÄ£Ê½¿Ï¶¨²»ÄÜ×ö³É²»¿É±äÀà£¬Òª²»È»ÔõÃ´newºÍset
+ * javabeansæ¨¡å¼
+ * ä¸è¶³ï¼šå› ä¸ºæ„é€ çš„è¿‡ç¨‹åˆ†å‰²æˆå¥½å¤šæ­¥éª¤ï¼ˆå¦‚ï¼šå¤šæ¬¡setï¼‰ã€‚åœ¨æ„é€ è¿‡ç¨‹ä¸­javabeanå¯èƒ½å¤„äºä¸ä¸€è‡´çš„çŠ¶æ€ï¼ˆä¸ªäººçš„ç†è§£å†™åœ¨mainæ–¹æ³•ä¸­ï¼Œä¸çŸ¥é“å¯¹ä¸å¯¹ï¼Ÿï¼‰ã€‚
+ *	        è¿™ç§æ¨¡å¼è‚¯å®šä¸èƒ½åšæˆä¸å¯å˜ç±»ï¼Œè¦ä¸ç„¶æ€ä¹ˆnewå’Œset
  */
 public class NutritionFacts {
     // Parameters initialized to default values (if any)
@@ -28,9 +28,9 @@ public class NutritionFacts {
 
     public static void main(String[] args) {
     	/**
-    	 * ÔÚ¹¹Ôì¹ı³ÌÖĞjavabean¿ÉÄÜ´¦ÓÚ²»Ò»ÖÂµÄ×´Ì¬
-    	 * ¸öÈËÀí½â£ºnewÁËNutritionFactsÀàµÄÁ½¸öÊµÀı£¬setµÄÊôĞÔ²»Ò»Ñù£¬ÕâÁ½¸öÊµÀı²»Ò»ÖÂ£¬
-    	 * 		  Äã²»ÄÜ±£Ö¤Í¨¹ı¸ÃÀàµÄÍ¬Ò»¸ö¹¹ÔìÆ÷±£Ö¤¹¹Ôì³öÀ´µÄ¶ÔÏóÊÇÊôĞÔÏàÍ¬µÄ
+    	 * åœ¨æ„é€ è¿‡ç¨‹ä¸­javabeanå¯èƒ½å¤„äºä¸ä¸€è‡´çš„çŠ¶æ€
+    	 * ä¸ªäººç†è§£ï¼šnewäº†NutritionFactsç±»çš„ä¸¤ä¸ªå®ä¾‹ï¼Œsetçš„å±æ€§ä¸ä¸€æ ·ï¼Œè¿™ä¸¤ä¸ªå®ä¾‹ä¸ä¸€è‡´ï¼Œ
+    	 * 		  ä½ ä¸èƒ½ä¿è¯é€šè¿‡è¯¥ç±»çš„åŒä¸€ä¸ªæ„é€ å™¨ä¿è¯æ„é€ å‡ºæ¥çš„å¯¹è±¡æ˜¯å±æ€§ç›¸åŒçš„
     	 */
         NutritionFacts cocaCola1 = new NutritionFacts();
         cocaCola1.setServingSize(240);

@@ -1,3 +1,5 @@
+package Chapter4.Item14;
+
 // Public class with exposed immutable fields - questionable
 public final class Time {
     private static final int HOURS_PER_DAY    = 24;
